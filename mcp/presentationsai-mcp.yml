@@ -16,14 +16,21 @@ deployment:
 tools_count: 5
 tools:
 - name: create_presentation_from_topic
-  description: ''
+  description: Generate a full AI-powered presentation from a topic or brief. Returns a document URL and
+    ID in the requested export format.
 - name: create_single_slide
-  description: ''
+  description: Generate a single AI-designed slide from a topic. Returns the slide in the requested export
+    format.
 - name: create_presentation_from_content
-  description: ''
+  description: Transform raw text (articles, notes, reports, outlines) into a professional presentation.
+    Supports multiple content-handling modes via preservationMode.
 - name: create_presentation_from_file
-  description: ''
+  description: Convert an uploaded document (PDF, Word, PowerPoint, text, markdown, RTF) into a presentation.
+    Max 5 MB. Supports the same preservation modes as content transformation.
 - name: check_job_status
-  description: ''
+  description: Poll for the result of an async presentation job. Returns current status and, when complete,
+    the presentation details.
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
