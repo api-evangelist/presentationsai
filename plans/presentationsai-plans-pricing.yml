@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.presentations.ai/pricing
+sources:
+- https://www.presentations.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Consumer/business subscription tiers for AI presentation software; prices shown for the US and may
+  vary by country. No API pricing stated on page.
+plan_count: 3
+currency: USD
+plans:
+- name: Starter
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  included_quota: 100 credits, Starter AI model and agent, Up to 20 Slides
+- name: Pro
+  price_text: $20 /mo
+  price: 20
+  currency: USD
+  period: month
+  included_quota: 5,000 credits; Advanced AI features; High-quality PowerPoint Export; Presentation tracking
+    & analytics; Brand customization; billed annually ($240 billed annually)
+- name: Gold
+  price_text: $50 /mo
+  price: 50
+  currency: USD
+  period: month
+  included_quota: 25,000 credits; All Pro features; Frontier AI models and agents; Advanced brand customization;
+    Shared knowledge base ($600 billed annually)
