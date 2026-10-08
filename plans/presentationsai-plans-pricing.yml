@@ -41,3 +41,32 @@ plans:
   period: month
   included_quota: 25,000 credits; All Pro features; Frontier AI models and agents; Advanced brand customization;
     Shared knowledge base ($600 billed annually)
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Starter
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Gold
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
